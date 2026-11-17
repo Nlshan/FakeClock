@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001C386875025E18C071EBAC /* StopwatchSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136763701D789AC91D34B9AB /* StopwatchSession.swift */; };
+		0178E6DAA86D8BD8742C1ABB /* CitySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B7BB1CBEA9BEE7789B5537 /* CitySearchView.swift */; };
+		04B83546450944235F03A291 /* AlarmEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2571578DFA923D4295D7A488 /* AlarmEditView.swift */; };
+		07EBE34848D76BF8C8E76840 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0390192A7C1D3B1492045DAC /* AuthenticationView.swift */; };
+		0BF054DDF5D787104A6F67C3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B44AC442A4BEC169FCFD5 /* SettingsView.swift */; };
+		10CBB80EC8783CC9A537F81F /* DurationDialHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C667C94DB425D844F4D3DB66 /* DurationDialHeader.swift */; };
+		1CCA70457683286A7BB0A8ED /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0ABA5D16F2CE9600D4904C /* NotificationService.swift */; };
+		1CFC6A4AAE48C68039FE2BE2 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87ACC553AA8347628F47B22 /* AlarmView.swift */; };
+		211C9F514E90092F1632168B /* WorldClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE6C46E5F58BF4F0CDCFD3 /* WorldClockViewModel.swift */; };
+		2285BB57A5E4C62E00DEE5E4 /* TimeFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F4CBFC403D781393897054 /* TimeFormat.swift */; };
+		2913657F5B313EADC4DB39E1 /* StopwatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC135EC13A95D3D553865CA1 /* StopwatchViewModel.swift */; };
+		298F93F60847630464227149 /* SetupAuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7B5CB0AC8322A24BE31003 /* SetupAuthenticationViewModel.swift */; };
+		2BEDAB4F5E9227BA1B08105F /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF01212D59CE76E2B179AA2A /* Color+Hex.swift */; };
+		307A640E9AB539F254109EB9 /* DurationPickerColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DAAC3A12A07B7D75B1D922 /* DurationPickerColumns.swift */; };
+		3440616B9AAFD60078A2F2BA /* A11y.swift in Sources */ = {isa = PBXBuildFile; fileRef = C969F7EF3782A7F833863E51 /* A11y.swift */; };
+		433829109162B5678B34E5F2 /* SettingsLinkCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006E4ECA8154E510F4E7DCD2 /* SettingsLinkCompat.swift */; };
+		442480311A0E3A61FA33FBE5 /* HapticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22817A5B0BCE1EE8E55D445 /* HapticsService.swift */; };
+		5A1DBADC5FDD01D13D7875A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9BDD39A2ABE1DFEAE304BC /* Assets.xcassets */; };
+		5E16ABA0DCA41C1C8F5BF171 /* WorldCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C6354C7C0D21081DDBD8D /* WorldCity.swift */; };
+		6A05E148C796D85FD37E8CFA /* AlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD735BE241B4D05F263C582F /* AlarmViewModel.swift */; };
+		6C14F34D7857F8BB330FA05E /* StatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BA9630E2A8E14375978C73 /* StatusBadge.swift */; };
+		7187FAABF9CE7A37F8BAFD34 /* CountdownEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CABDF6CCBFEACFC1AE71896 /* CountdownEngine.swift */; };
+		779D89A9A2B8D081698ADD0C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B460E72AE34A6245ACF223 /* Theme.swift */; };
+		7CA4C06A4A75A586909B9382 /* CardBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D2F69BCBEACFAC1C11B4EC /* CardBackground.swift */; };
+		7DF533EF99368501C5E433F1 /* StopwatchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A5E660807282CF8DCD5E96 /* StopwatchEngine.swift */; };
+		7F1A3607D43CDFBCD0227EE5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B468D5FCD9C5915E7E1B63 /* MainTabView.swift */; };
+		853B23B263245B48CFD135B1 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9064061D6B3D6223FA6D996 /* AppCoordinator.swift */; };
+		8661E5A44A28659A8CEAA1E9 /* TimerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4F0A46CCFE345EF2F7CD11 /* TimerTabView.swift */; };
+		89F739E5DF616603EA496273 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90561BAFB4D85C7F3C948F6 /* AuthenticationManager.swift */; };
+		90832BE733F13C2A831B2BF5 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB72CE035FEC06468D2FB348 /* AppState.swift */; };
+		9BEB3CA73267EB74BD4446A7 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98779B86983F4DCE7C71E7E3 /* TimerViewModel.swift */; };
+		A15072F28B882B7A154278B4 /* InstagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE7EC2B298A481CC3811785 /* InstagramView.swift */; };
+		A3BA6A44C75F76C8F215C9FB /* MonotonicClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A9129C27A765F9E8F6F091 /* MonotonicClock.swift */; };
+		A3BBDA5372B5C5D38271DB22 /* AlarmActionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7707F99659E7A72DBFCA7C0A /* AlarmActionHandler.swift */; };
+		A55AF25BE1F6BACB64C08453 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5775614FBB87599A995F2164 /* AppSettings.swift */; };
+		AC10090DFA99F1EDFA43D4A3 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5426D8C3A752C2F6DB0C5E /* PersistenceService.swift */; };
+		B3F41B424C8422CDA927B8F4 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59BF0A6EACB8D2A33B7FBDE /* ButtonStyles.swift */; };
+		B929FCAF607E12CDAF70843B /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAF55FC6BDB624861394E1E /* SoundService.swift */; };
+		CCD68E4D71F921958A5C283D /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040EF439EE6E1EF358F41C24 /* Alarm.swift */; };
+		CCD8BC89583A9D5645993547 /* TimerSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C097C698D604FB9195635 /* TimerSnapshot.swift */; };
+		CE1B39A5909A08CE7E3ECF2C /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD9FCF829A709C1DE3E223 /* StopwatchView.swift */; };
+		D0D33223D7B856172C08BBC1 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B8FA66888AC2C7516471A /* SettingsStore.swift */; };
+		D9BC5ACD49C93DE890340A32 /* LockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B428A2500DBD4043530395 /* LockManager.swift */; };
+		DC2F8A8C465DBA96ECE16857 /* BiometricService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A339E7A151CEDC8B748722A2 /* BiometricService.swift */; };
+		DDDEBEB200F3F0FE9E2D851F /* SetupAuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD2D421C7423B1326E802E6 /* SetupAuthenticationView.swift */; };
+		EF079942EE055B455F9E3D89 /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0778F4BC8A2EB1EBCA9F08 /* WorldClockView.swift */; };
+		F19780D1DC13E7885D794DFC /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58674BD29819DB0638DC92FE /* KeychainService.swift */; };
+		F1FD8C41D99C3798BA7EDCFE /* UnlockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0DF11D96015EDCCA702022 /* UnlockViewModel.swift */; };
+		FC40B5927E87B766F312727A /* TimerLockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CCFF8F543608AD19C9ED6B /* TimerLockApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006E4ECA8154E510F4E7DCD2 /* SettingsLinkCompat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLinkCompat.swift; sourceTree = "<group>"; };
+		0390192A7C1D3B1492045DAC /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		040EF439EE6E1EF358F41C24 /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		07B428A2500DBD4043530395 /* LockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockManager.swift; sourceTree = "<group>"; };
+		0B5426D8C3A752C2F6DB0C5E /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		136763701D789AC91D34B9AB /* StopwatchSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchSession.swift; sourceTree = "<group>"; };
+		1B0778F4BC8A2EB1EBCA9F08 /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
+		1D4C6354C7C0D21081DDBD8D /* WorldCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCity.swift; sourceTree = "<group>"; };
+		20B460E72AE34A6245ACF223 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2571578DFA923D4295D7A488 /* AlarmEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmEditView.swift; sourceTree = "<group>"; };
+		283C097C698D604FB9195635 /* TimerSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSnapshot.swift; sourceTree = "<group>"; };
+		2FD2D421C7423B1326E802E6 /* SetupAuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupAuthenticationView.swift; sourceTree = "<group>"; };
+		2FFE6C46E5F58BF4F0CDCFD3 /* WorldClockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewModel.swift; sourceTree = "<group>"; };
+		3CABDF6CCBFEACFC1AE71896 /* CountdownEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownEngine.swift; sourceTree = "<group>"; };
+		3DE7EC2B298A481CC3811785 /* InstagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramView.swift; sourceTree = "<group>"; };
+		3FCD9FCF829A709C1DE3E223 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
+		45E58A96AE6CBB08B20818D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E3B44AC442A4BEC169FCFD5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5775614FBB87599A995F2164 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		58674BD29819DB0638DC92FE /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		5B0ABA5D16F2CE9600D4904C /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		5BAF55FC6BDB624861394E1E /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundService.swift; sourceTree = "<group>"; };
+		71CCFF8F543608AD19C9ED6B /* TimerLockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerLockApp.swift; sourceTree = "<group>"; };
+		75A9129C27A765F9E8F6F091 /* MonotonicClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotonicClock.swift; sourceTree = "<group>"; };
+		7707F99659E7A72DBFCA7C0A /* AlarmActionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmActionHandler.swift; sourceTree = "<group>"; };
+		7C0B8FA66888AC2C7516471A /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		83DAAC3A12A07B7D75B1D922 /* DurationPickerColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationPickerColumns.swift; sourceTree = "<group>"; };
+		86B7BB1CBEA9BEE7789B5537 /* CitySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchView.swift; sourceTree = "<group>"; };
+		8D7B5CB0AC8322A24BE31003 /* SetupAuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupAuthenticationViewModel.swift; sourceTree = "<group>"; };
+		8E0DF11D96015EDCCA702022 /* UnlockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockViewModel.swift; sourceTree = "<group>"; };
+		98779B86983F4DCE7C71E7E3 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		A1B468D5FCD9C5915E7E1B63 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A339E7A151CEDC8B748722A2 /* BiometricService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricService.swift; sourceTree = "<group>"; };
+		AD4F0A46CCFE345EF2F7CD11 /* TimerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTabView.swift; sourceTree = "<group>"; };
+		B9A5E660807282CF8DCD5E96 /* StopwatchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchEngine.swift; sourceTree = "<group>"; };
+		C22817A5B0BCE1EE8E55D445 /* HapticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsService.swift; sourceTree = "<group>"; };
+		C667C94DB425D844F4D3DB66 /* DurationDialHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationDialHeader.swift; sourceTree = "<group>"; };
+		C7BA9630E2A8E14375978C73 /* StatusBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBadge.swift; sourceTree = "<group>"; };
+		C9064061D6B3D6223FA6D996 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		C969F7EF3782A7F833863E51 /* A11y.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A11y.swift; sourceTree = "<group>"; };
+		CF01212D59CE76E2B179AA2A /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		D6F4CBFC403D781393897054 /* TimeFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormat.swift; sourceTree = "<group>"; };
+		D87ACC553AA8347628F47B22 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		DC135EC13A95D3D553865CA1 /* StopwatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewModel.swift; sourceTree = "<group>"; };
+		DD735BE241B4D05F263C582F /* AlarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewModel.swift; sourceTree = "<group>"; };
+		DF9BDD39A2ABE1DFEAE304BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5D2F69BCBEACFAC1C11B4EC /* CardBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackground.swift; sourceTree = "<group>"; };
+		EB72CE035FEC06468D2FB348 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		F3E6AEE993AC2CE156E56B48 /* FakeClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59BF0A6EACB8D2A33B7FBDE /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		F90561BAFB4D85C7F3C948F6 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0950AA5CFB13A33B7AC7256 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039EDB9167775FDBCD04AE9B /* Stopwatch */ = {
+				isa = PBXGroup;
+				children = (
+					55CFBCC2B4C99C0CA1085C55 /* Models */,
+					16EF5A4694FDCCA4C57536F5 /* ViewModels */,
+					CD8A018FABDBDE15C8284D7A /* Views */,
+				);
+				path = Stopwatch;
+				ourceTree = "<group>";
+		};
+		16A180A881DCF24BA0F61922 /* Authentication */ = {
+				isa = PBXGroup;
+				children = (
+					C5D381A54C549783F484B1AF /* ViewModels */,
+					5B92588461C1541234E466B9 /* Views */,
+				);
+				path = Authentication;
+				ourceTree = "<group>";
+		};
+		16EF5A4694FDCCA4C57536F5 /* ViewModels */ = {
+				isa = PBXGroup;
+				children = (
+					DC135EC13A95D3D553865CA1 /* StopwatchViewModel.swift */,
+				);
+				path = ViewModels;
+				ourceTree = "<group>";
+		};
+		1BF910B6AE183D76DE9C3AF4 /* WorldClock */ = {
+				isa = PBXGroup;
+				children = (
+					BFD3AE5AE4662932BE3082FF /* ViewModels */,
+					2E2A56D41C8AC00D78D291E5 /* Views */,
+				);
+				path = WorldClock;
+				ourceTree = "<group>";
+		};
+		2E2A56D41C8AC00D78D291E5 /* Views */ = {
+				isa = PBXGroup;
+				children = (
+					86B7BB1CBEA9BEE7789B5537 /* CitySearchView.swift */,
+					1B0778F4BC8A2EB1EBCA9F08 /* WorldClockView.swift */,
+				);
+				path = Views;
+				ourceTree = "<group>";
+		};
+		4AC1A991867E3EA78E24BCD5 /* Components */ = {
+				isa = PBXGroup;
+				children = (
+					F59BF0A6EACB8D2A33B7FBDE /* ButtonStyles.swift */,
+					E5D2F69BCBEACFAC1C11B4EC /* CardBackground.swift */,
+					83DAAC3A12A07B7D75B1D922 /* DurationPickerColumns.swift */,
+					006E4ECA8154E510F4E7DCD2 /* SettingsLinkCompat.swift */,
+					C7BA9630E2A8E14375978C73 /* StatusBadge.swift */,
+				);
+				path = Components;
+				ourceTree = "<group>";
+		};
+		55CFBCC2B4C99C0CA1085C55 /* Models */ = {
+				isa = PBXGroup;
+				children = (
+					B9A5E660807282CF8DCD5E96 /* StopwatchEngine.swift */,
+				);
+				path = Models;
+				ourceTree = "<group>";
+		};
+		56F4857370D226D49E93EB72 /* Instagram */ = {
+				isa = PBXGroup;
+				children = (
+					BEF7243B065D1FFD2E5D5D8B /* Views */,
+				);
+				path = Instagram;
+				ourceTree = "<group>";
+		};
+		5B92588461C1541234E466B9 /* Views */ = {
+				isa = PBXGroup;
+				children = (
+					0390192A7C1D3B1492045DAC /* AuthenticationView.swift */,
+					C667C94DB425D844F4D3DB66 /* DurationDialHeader.swift */,
+					2FD2D421C7423B1326E802E6 /* SetupAuthenticationView.swift */,
+				);
+				path = Views;
+				ourceTree = "<group>";
+		};
+		66122B56E9DFD6E4FD2289FB /* Models */ = {
+				isa = PBXGroup;
+				children = (
+					040EF439EE6E1EF358F41C24 /* Alarm.swift */,
+					5775614FBB87599A995F2164 /* AppSettings.swift */,
+					136763701D789AC91D34B9AB /* StopwatchSession.swift */,
+					1D4C6354C7C0D21081DDBD8D /* WorldCity.swift */,
+				);
+				path = Models;
+				ourceTree = "<group>";
+		};
+		6F782E7E63CC722AD4D35C32 /* Timer */ = {
+				isa = PBXGroup;
+				children = (
+					AF4039853A70BD5A1C37588C /* Models */,
+					9A63FDDFBF997B6A3468600C /* ViewModels */,
+					99133D4A15BDEBF7305F9CDE /* Views */,
+				);
+				path = Timer;
+				ourceTree = "<group>";
+		};
+		704A8331896F44C55F6CD01A /* Settings */ = {
+				isa = PBXGroup;
+				children = (
+					85D514BE3B59DED85DD267AB /* Views */,
+				);
+				path = Settings;
+				ourceTree = "<group>";
+		};
+		85D514BE3B59DED85DD267AB /* Views */ = {
+				isa = PBXGroup;
+				children = (
+					4E3B44AC442A4BEC169FCFD5 /* SettingsView.swift */,
+				);
+				path = Views;
+				ourceTree = "<group>";
+		};
+		99133D4A15BDEBF7305F9CDE /* Views */ = {
+				isa = PBXGroup;
+				children = (
+					AD4F0A46CCFE345EF2F7CD11 /* TimerTabView.swift */,
+				);
+				path = Views;
+				ourceTree = "<group>";
+		};
+		9A63FDDFBF997B6A3468600C /* ViewModels */ = {
+				isa = PBXGroup;
+				children = (
+					98779B86983F4DCE7C71E7E3 /* TimerViewModel.swift */,
+				);
+				path = ViewModels;
+				ourceTree = "<group>";
+		};
+		9C1B9A5BD455F81E3CFE386B /* ViewModels */ = {
+				isa = PBXGroup;
+				children = (
+					DD735BE241B4D05F263C582F /* AlarmViewModel.swift */,
+				);
+				path = ViewModels;
+				ourceTree = "<group>";
+		};
+		A237904DEBA6B39F0A84C23F /* Utilities */ = {
+				isa = PBXGroup;
+				children = (
+					C969F7EF3782A7F833863E51 /* A11y.swift */,
+					75A9129C27A765F9E8F6F091 /* MonotonicClock.swift */,
+					D6F4CBFC403D781393897054 /* TimeFormat.swift */,
+				);
+				path = Utilities;
+				ourceTree = "<group>";
+		};
+		ADCAF4E28A15F565518D2720 /* Core */ = {
+				isa = PBXGroup;
+				children = (
+					4AC1A991867E3EA78E24BCD5 /* Components */,
+					66122B56E9DFD6E4FD2289FB /* Models */,
+					F0F404DBEB3B7729F18B94DC /* Theme */,
+					A237904DEBA6B39F0A84C23F /* Utilities */,
+				);
+				path = Core;
+				ourceTree = "<group>";
+		};
+		AF1C6478C0D7204D6AA32239 /* App */ = {
+				isa = PBXGroup;
+				children = (
+					C9064061D6B3D6223FA6D996 /* AppCoordinator.swift */,
+					EB72CE035FEC06468D2FB348 /* AppState.swift */,
+					A1B468D5FCD9C5915E7E1B63 /* MainTabView.swift */,
+					7C0B8FA66888AC2C7516471A /* SettingsStore.swift */,
+					71CCFF8F543608AD19C9ED6B /* TimerLockApp.swift */,
+				);
+				path = App;
+				ourceTree = "<group>";
+		};
+		AF4039853A70BD5A1C37588C /* Models */ = {
+				isa = PBXGroup;
+				children = (
+					3CABDF6CCBFEACFC1AE71896 /* CountdownEngine.swift */,
+					283C097C698D604FB9195635 /* TimerSnapshot.swift */,
+				);
+				path = Models;
+				ourceTree = "<group>";
+		};
+		BEF7243B065D1FFD2E5D5D8B /* Views */ = {
+				isa = PBXGroup;
+				children = (
+					3DE7EC2B298A481CC3811785 /* InstagramView.swift */,
+				);
+				path = Views;
+				ourceTree = "<group>";
+		};
+		BFD3AE5AE4662932BE3082FF /* ViewModels */ = {
+				isa = PBXGroup;
+				children = (
+					2FFE6C46E5F58BF4F0CDCFD3 /* WorldClockViewModel.swift */,
+				);
+				path = ViewModels;
+				ourceTree = "<group>";
+		};
+		C5D381A54C549783F484B1AF /* ViewModels */ = {
+				isa = PBXGroup;
+				children = (
+					8D7B5CB0AC8322A24BE31003 /* SetupAuthenticationViewModel.swift */,
+					8E0DF11D96015EDCCA702022 /* UnlockViewModel.swift */,
+				);
+				path = ViewModels;
+				ourceTree = "<group>";
+		};
+		CD8A018FABDBDE15C8284D7A /* Views */ = {
+				isa = PBXGroup;
+				children = (
+					3FCD9FCF829A709C1DE3E223 /* StopwatchView.swift */,
+				);
+				path = Views;
+				ourceTree = "<group>";
+		};
+		CE916CB9140CAF56D55DE842 /* Features */ = {
+				isa = PBXGroup;
+				children = (
+					FF25538C321C92B1BAA574D9 /* Alarm */,
+					16A180A881DCF24BA0F61922 /* Authentication */,
+					56F4857370D226D49E93EB72 /* Instagram */,
+					704A8331896F44C55F6CD01A /* Settings */,
+					039EDB9167775FDBCD04AE9B /* Stopwatch */,
+					6F782E7E63CC722AD4D35C32 /* Timer */,
+					1BF910B6AE183D76DE9C3AF4 /* WorldClock */,
+				);
+				path = Features;
+				ourceTree = "<group>";
+		};
+		CF8CA1C463C1363C39128EB1 /* Products */ = {
+				isa = PBXGroup;
+				children = (
+					F3E6AEE993AC2CE156E56B48 /* FakeClock.app */,
+				);
+				ourceTree = "<group>";
+		};
+		D9FFA7462409E818FFC41845 /* FakeClock */ = {
+				isa = PBXGroup;
+				children = (
+					AF1C6478C0D7204D6AA32239 /* App */,
+					ADCAF4E28A15F565518D2720 /* Core */,
+					CE916CB9140CAF56D55DE842 /* Features */,
+					F013A95D774E55DD0CEE1B98 /* Services */,
+					DF9BDD39A2ABE1DFEAE304BC /* Assets.xcassets */,
+					45E58A96AE6CBB08B20818D5 /* Info.plist */,
+				);
+				path = FakeClock;
+				ourceTree = "<group>";
+		};
+		DB3783392584958FE498E436 /* Views */ = {
+				isa = PBXGroup;
+				children = (
+					7707F99659E7A72DBFCA7C0A /* AlarmActionHandler.swift */,
+					2571578DFA923D4295D7A488 /* AlarmEditView.swift */,
+					D87ACC553AA8347628F47B22 /* AlarmView.swift */,
+				);
+				path = Views;
+				ourceTree = "<group>";
+		};
+		EF480A0D3AD33165A1550B84 /*  */ = {
+				isa = PBXGroup;
+				children = (
+					D9FFA7462409E818FFC41845 /* FakeClock */,
+					CF8CA1C463C1363C39128EB1 /* Products */,
+				);
+				ourceTree = "<group>";
+		};
+		F013A95D774E55DD0CEE1B98 /* Services */ = {
+				isa = PBXGroup;
+				children = (
+					F90561BAFB4D85C7F3C948F6 /* AuthenticationManager.swift */,
+					A339E7A151CEDC8B748722A2 /* BiometricService.swift */,
+					C22817A5B0BCE1EE8E55D445 /* HapticsService.swift */,
+					58674BD29819DB0638DC92FE /* KeychainService.swift */,
+					07B428A2500DBD4043530395 /* LockManager.swift */,
+					5B0ABA5D16F2CE9600D4904C /* NotificationService.swift */,
+					0B5426D8C3A752C2F6DB0C5E /* PersistenceService.swift */,
+					5BAF55FC6BDB624861394E1E /* SoundService.swift */,
+				);
+				path = Services;
+				ourceTree = "<group>";
+		};
+		F0F404DBEB3B7729F18B94DC /* Theme */ = {
+				isa = PBXGroup;
+				children = (
+					CF01212D59CE76E2B179AA2A /* Color+Hex.swift */,
+					20B460E72AE34A6245ACF223 /* Theme.swift */,
+				);
+				path = Theme;
+				ourceTree = "<group>";
+		};
+		FF25538C321C92B1BAA574D9 /* Alarm */ = {
+				isa = PBXGroup;
+				children = (
+					9C1B9A5BD455F81E3CFE386B /* ViewModels */,
+					DB3783392584958FE498E436 /* Views */,
+				);
+				path = Alarm;
+				ourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71D99250CE84D5ECC83D2B2B /* FakeClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13E7B1471741BF9A9EF064A /* Build configuration list for PBXNativeTarget "FakeClock" */;
+			buildPhases = (
+				731A2139FC1218A53BF19A0A /* Sources */,
+				C0950AA5CFB13A33B7AC7256 /* Frameworks */,
+				1ADAD682F14DB55D9212C961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakeClock;
+			productName = FakeClock;
+			productReference = F3E6AEE993AC2CE156E56B48 /* FakeClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B79F6561596BEB39380A624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildVersion = "15F31d";
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					71D99250CE84D5ECC83D2B2B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 44FC6307DE7E5FCC109F2D5E /* Build configuration list for PBXProject "FakeClock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF480A0D3AD33165A1550B84;
+			productRefGroup = CF8CA1C463C1363C39128EB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71D99250CE84D5ECC83D2B2B /* FakeClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ADAD682F14DB55D9212C961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A1DBADC5FDD01D13D7875A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		731A2139FC1218A53BF19A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853B23B263245B48CFD135B1 /* AppCoordinator.swift in Sources */,
+				90832BE733F13C2A831B2BF5 /* AppState.swift in Sources */,
+				7F1A3607D43CDFBCD0227EE5 /* MainTabView.swift in Sources */,
+				D0D33223D7B856172C08BBC1 /* SettingsStore.swift in Sources */,
+				FC40B5927E87B766F312727A /* TimerLockApp.swift in Sources */,
+				B3F41B424C8422CDA927B8F4 /* ButtonStyles.swift in Sources */,
+				7CA4C06A4A75A586909B9382 /* CardBackground.swift in Sources */,
+				307A640E9AB539F254109EB9 /* DurationPickerColumns.swift in Sources */,
+				433829109162B5678B34E5F2 /* SettingsLinkCompat.swift in Sources */,
+				6C14F34D7857F8BB330FA05E /* StatusBadge.swift in Sources */,
+				CCD68E4D71F921958A5C283D /* Alarm.swift in Sources */,
+				A55AF25BE1F6BACB64C08453 /* AppSettings.swift in Sources */,
+				001C386875025E18C071EBAC /* StopwatchSession.swift in Sources */,
+				5E16ABA0DCA41C1C8F5BF171 /* WorldCity.swift in Sources */,
+				2BEDAB4F5E9227BA1B08105F /* Color+Hex.swift in Sources */,
+				779D89A9A2B8D081698ADD0C /* Theme.swift in Sources */,
+				3440616B9AAFD60078A2F2BA /* A11y.swift in Sources */,
+				A3BA6A44C75F76C8F215C9FB /* MonotonicClock.swift in Sources */,
+				2285BB57A5E4C62E00DEE5E4 /* TimeFormat.swift in Sources */,
+				6A05E148C796D85FD37E8CFA /* AlarmViewModel.swift in Sources */,
+				A3BBDA5372B5C5D38271DB22 /* AlarmActionHandler.swift in Sources */,
+				04B83546450944235F03A291 /* AlarmEditView.swift in Sources */,
+				1CFC6A4AAE48C68039FE2BE2 /* AlarmView.swift in Sources */,
+				298F93F60847630464227149 /* SetupAuthenticationViewModel.swift in Sources */,
+				F1FD8C41D99C3798BA7EDCFE /* UnlockViewModel.swift in Sources */,
+				07EBE34848D76BF8C8E76840 /* AuthenticationView.swift in Sources */,
+				10CBB80EC8783CC9A537F81F /* DurationDialHeader.swift in Sources */,
+				DDDEBEB200F3F0FE9E2D851F /* SetupAuthenticationView.swift in Sources */,
+				A15072F28B882B7A154278B4 /* InstagramView.swift in Sources */,
+				0BF054DDF5D787104A6F67C3 /* SettingsView.swift in Sources */,
+				7DF533EF99368501C5E433F1 /* StopwatchEngine.swift in Sources */,
+				2913657F5B313EADC4DB39E1 /* StopwatchViewModel.swift in Sources */,
+				CE1B39A5909A08CE7E3ECF2C /* StopwatchView.swift in Sources */,
+				7187FAABF9CE7A37F8BAFD34 /* CountdownEngine.swift in Sources */,
+				CCD8BC89583A9D5645993547 /* TimerSnapshot.swift in Sources */,
+				9BEB3CA73267EB74BD4446A7 /* TimerViewModel.swift in Sources */,
+				8661E5A44A28659A8CEAA1E9 /* TimerTabView.swift in Sources */,
+				211C9F514E90092F1632168B /* WorldClockViewModel.swift in Sources */,
+				0178E6DAA86D8BD8742C1ABB /* CitySearchView.swift in Sources */,
+				EF079942EE055B455F9E3D89 /* WorldClockView.swift in Sources */,
+				89F739E5DF616603EA496273 /* AuthenticationManager.swift in Sources */,
+				DC2F8A8C465DBA96ECE16857 /* BiometricService.swift in Sources */,
+				442480311A0E3A61FA33FBE5 /* HapticsService.swift in Sources */,
+				F19780D1DC13E7885D794DFC /* KeychainService.swift in Sources */,
+				D9BC5ACD49C93DE890340A32 /* LockManager.swift in Sources */,
+				1CCA70457683286A7BB0A8ED /* NotificationService.swift in Sources */,
+				AC10090DFA99F1EDFA43D4A3 /* PersistenceService.swift in Sources */,
+				B929FCAF607E12CDAF70843B /* SoundService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0606357954683D6A978427F1 /* Debug */ = {
+				isa = XCBuildConfiguration;
+				buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = -Onone;
+				};
+				name = Debug;
+		};
+		40FD72C6AD5F72173A3D0852 /* Debug */ = {
+				isa = XCBuildConfiguration;
+				buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FakeClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fake.clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				};
+				name = Debug;
+		};
+		4977FAFDE38A4121D9223E86 /* Release */ = {
+				isa = XCBuildConfiguration;
+				buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				};
+				name = Release;
+		};
+		8FB659C75D37A42F5A57D83A /* Release */ = {
+				isa = XCBuildConfiguration;
+				buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FakeClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fake.clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				};
+				name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44FC6307DE7E5FCC109F2D5E /* Build configuration list for PBXProject "FakeClock" */ = {
+				isa = XCConfigurationList;
+				buildConfigurations = (
+					0606357954683D6A978427F1 /* Debug */,
+					4977FAFDE38A4121D9223E86 /* Release */,
+				);
+				defaultConfigurationIsVisible = 0;
+				defaultConfigurationName = Release;
+		};
+		D13E7B1471741BF9A9EF064A /* Build configuration list for PBXNativeTarget "FakeClock" */ = {
+				isa = XCConfigurationList;
+				buildConfigurations = (
+					40FD72C6AD5F72173A3D0852 /* Debug */,
+					8FB659C75D37A42F5A57D83A /* Release */,
+				);
+				defaultConfigurationIsVisible = 0;
+				defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 6B79F6561596BEB39380A624 /* Project object */;
+}

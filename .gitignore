@@ -1,0 +1,18 @@
+# Xcode / macOS build artifacts
+DerivedData/
+build/
+*.ipa
+*.xcarchive
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.hmap
+*.mode1v3
+*.mode2v3
+
+# macOS metadata
+.DS_Store
+
+# Local inspection scratch
+_original_src/
